@@ -290,4 +290,6 @@ Wire Wire Line
 Connection ~ 5700 2400
 Wire Wire Line
 	5700 2400 5900 2400
+Text Notes 2300 2250 0    50   ~ 0
+R1=1k R2=10k\nVmax=4.545\nVmin=2.381
 $EndSCHEMATC
