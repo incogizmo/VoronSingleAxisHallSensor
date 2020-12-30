@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HallEffect:Conn_01x03 J1
+U 1 1 5FE9C107
+P 7500 2300
+F 0 "J1" H 7580 2342 50  0000 L CNN
+F 1 "Conn_01x03" H 7580 2251 50  0000 L CNN
+F 2 "HallEffect:PinHeader_1x03_P2.54mm_Vertical" H 7500 2300 50  0001 C CNN
+F 3 "~" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FE9CAA6
+P 7300 2300
+F 0 "#PWR010" H 7300 2050 50  0001 C CNN
+F 1 "GND" V 7305 2172 50  0000 R CNN
+F 2 "" H 7300 2300 50  0001 C CNN
+F 3 "" H 7300 2300 50  0001 C CNN
+	1    7300 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5FE9D08F
+P 7300 2200
+F 0 "#PWR09" H 7300 2050 50  0001 C CNN
+F 1 "+5V" V 7315 2328 50  0000 L CNN
+F 2 "" H 7300 2200 50  0001 C CNN
+F 3 "" H 7300 2200 50  0001 C CNN
+	1    7300 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7300 2400 0    50   Input ~ 0
+Signal
+$Comp
+L HallEffect:TS331ILT U2
+U 1 1 5FEA1D5C
+P 4400 2300
+F 0 "U2" H 5144 2246 50  0000 L CNN
+F 1 "TS331ILT" H 5144 2155 50  0000 L CNN
+F 2 "HallEffect:SOT-23-5" H 4400 2700 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/ts331.pdf" H 4400 2800 50  0001 L CNN
+F 4 "IC" H 4400 2900 50  0001 L CNN "category"
+F 5 "Integrated Circuits (ICs)" H 4400 3000 50  0001 L CNN "device class L1"
+F 6 "Linear ICs" H 4400 3100 50  0001 L CNN "device class L2"
+F 7 "Comparators" H 4400 3200 50  0001 L CNN "device class L3"
+F 8 "IC COMPARATOR SINGLE SOT23-5" H 4400 3300 50  0001 L CNN "digikey description"
+F 9 "497-10555-1-ND" H 4400 3400 50  0001 L CNN "digikey part number"
+F 10 "1.45mm" H 4400 3500 50  0001 L CNN "height"
+F 11 "0.03uA" H 4400 3600 50  0001 L CNN "input bias current"
+F 12 "0.5mV" H 4400 3700 50  0001 L CNN "input offset voltage"
+F 13 "SOT95P280X120-5" H 4400 3800 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 4400 3900 50  0001 L CNN "lead free"
+F 15 "bbb9eb91c0aa956b" H 4400 4000 50  0001 L CNN "library id"
+F 16 "STMicroelectronics" H 4400 4100 50  0001 L CNN "manufacturer"
+F 17 "+150°C" H 4400 4200 50  0001 L CNN "max junction temp"
+F 18 "5V" H 4400 4300 50  0001 L CNN "max supply voltage"
+F 19 "1.6V" H 4400 4400 50  0001 L CNN "min supply voltage"
+F 20 "Analog Comparators Micropower 20uA 1.6V to 5V RtoR" H 4400 4500 50  0001 L CNN "mouser description"
+F 21 "511-TS331ILT" H 4400 4600 50  0001 L CNN "mouser part number"
+F 22 "23-26uA" H 4400 4700 50  0001 L CNN "nominal supply current"
+F 23 "1" H 4400 4800 50  0001 L CNN "number of channels"
+F 24 "93mA" H 4400 4900 50  0001 L CNN "output current per channel"
+F 25 "SOT23-5" H 4400 5000 50  0001 L CNN "package"
+F 26 "yes" H 4400 5100 50  0001 L CNN "rohs"
+F 27 "+125°C" H 4400 5200 50  0001 L CNN "temperature range high"
+F 28 "-40°C" H 4400 5300 50  0001 L CNN "temperature range low"
+	1    4400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FEA2C66
+P 4800 2600
+F 0 "#PWR07" H 4800 2350 50  0001 C CNN
+F 1 "GND" H 4805 2427 50  0000 C CNN
+F 2 "" H 4800 2600 50  0001 C CNN
+F 3 "" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5FEA32F8
+P 4800 2200
+F 0 "#PWR06" H 4800 2050 50  0001 C CNN
+F 1 "+5V" H 4815 2373 50  0000 C CNN
+F 2 "" H 4800 2200 50  0001 C CNN
+F 3 "" H 4800 2200 50  0001 C CNN
+	1    4800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect:SS49E U1
+U 1 1 5FEA3EB5
+P 4350 1800
+F 0 "U1" H 4628 1920 60  0000 L CNN
+F 1 "SS49E" H 4628 1814 60  0000 L CNN
+F 2 "HallEffect:SOT-23" H 4250 1800 60  0001 C CNN
+F 3 "" H 4250 1800 60  0001 C CNN
+	1    4350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FEA483D
+P 4350 1900
+F 0 "#PWR05" H 4350 1650 50  0001 C CNN
+F 1 "GND" H 4355 1727 50  0000 C CNN
+F 2 "" H 4350 1900 50  0001 C CNN
+F 3 "" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1900 3850 1900
+$Comp
+L power:+5V #PWR03
+U 1 1 5FEA5973
+P 3850 1900
+F 0 "#PWR03" H 3850 1750 50  0001 C CNN
+F 1 "+5V" H 3865 2073 50  0000 C CNN
+F 2 "" H 3850 1900 50  0001 C CNN
+F 3 "" H 3850 1900 50  0001 C CNN
+	1    3850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FEA5FC6
+P 3850 2200
+F 0 "#PWR04" H 3850 1950 50  0001 C CNN
+F 1 "GND" H 3855 2027 50  0000 C CNN
+F 2 "" H 3850 2200 50  0001 C CNN
+F 3 "" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1900 4500 2300
+$Comp
+L HallEffect:R R2
+U 1 1 5FEADFC8
+P 3100 2650
+F 0 "R2" H 3170 2696 50  0000 L CNN
+F 1 "10K" H 3170 2605 50  0000 L CNN
+F 2 "HallEffect:R_0805_2012Metric" V 3030 2650 50  0001 C CNN
+F 3 "~" H 3100 2650 50  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect:R R1
+U 1 1 5FEAE921
+P 3100 2350
+F 0 "R1" H 3170 2396 50  0000 L CNN
+F 1 "1.0K" H 3170 2305 50  0000 L CNN
+F 2 "HallEffect:R_0805_2012Metric" V 3030 2350 50  0001 C CNN
+F 3 "~" H 3100 2350 50  0001 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 1900
+$Comp
+L HallEffect:C C2
+U 1 1 5FEAD587
+P 3850 2050
+F 0 "C2" H 3965 2096 50  0000 L CNN
+F 1 "1uF" H 3965 2005 50  0000 L CNN
+F 2 "HallEffect:C_0805_2012Metric" H 3888 1900 50  0001 C CNN
+F 3 "~" H 3850 2050 50  0001 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5FEAFE4B
+P 3100 1950
+F 0 "RV1" H 3030 1904 50  0000 R CNN
+F 1 "10K" H 3030 1995 50  0000 R CNN
+F 2 "HallEffect:CT6EP103" H 3100 1950 50  0001 C CNN
+F 3 "~" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 2500 3450 2500
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2200 3100 2150
+$Comp
+L HallEffect:C C1
+U 1 1 5FEB3165
+P 3450 2650
+F 0 "C1" H 3565 2696 50  0000 L CNN
+F 1 "0.1uF" H 3565 2605 50  0000 L CNN
+F 2 "HallEffect:C_0805_2012Metric" H 3488 2500 50  0001 C CNN
+F 3 "~" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 2500
+Wire Wire Line
+	3450 2500 4500 2500
+Wire Wire Line
+	3450 2800 3100 2800
+$Comp
+L power:GND #PWR02
+U 1 1 5FEB3CBB
+P 3100 2800
+F 0 "#PWR02" H 3100 2550 50  0001 C CNN
+F 1 "GND" H 3105 2627 50  0000 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2800
+Wire Wire Line
+	2950 1950 2950 2150
+Wire Wire Line
+	2950 2150 3100 2150
+Connection ~ 3100 2150
+Wire Wire Line
+	3100 2150 3100 2100
+$Comp
+L power:+5V #PWR01
+U 1 1 5FEB4703
+P 3100 1800
+F 0 "#PWR01" H 3100 1650 50  0001 C CNN
+F 1 "+5V" H 3115 1973 50  0000 C CNN
+F 2 "" H 3100 1800 50  0001 C CNN
+F 3 "" H 3100 1800 50  0001 C CNN
+	1    3100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect:R R3
+U 1 1 5FEB5185
+P 5700 2250
+F 0 "R3" H 5770 2296 50  0000 L CNN
+F 1 "R" H 5770 2205 50  0000 L CNN
+F 2 "HallEffect:R_0805_2012Metric" V 5630 2250 50  0001 C CNN
+F 3 "~" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5FEB5CD2
+P 5700 1950
+F 0 "D1" V 5739 1833 50  0000 R CNN
+F 1 "LED" V 5648 1833 50  0000 R CNN
+F 2 "HallEffect:LED_0805_2012Metric" H 5700 1950 50  0001 C CNN
+F 3 "~" H 5700 1950 50  0001 C CNN
+	1    5700 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 5FEB6CEE
+P 5700 1800
+F 0 "#PWR08" H 5700 1650 50  0001 C CNN
+F 1 "+5V" H 5715 1973 50  0000 C CNN
+F 2 "" H 5700 1800 50  0001 C CNN
+F 3 "" H 5700 1800 50  0001 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 2400 2    50   Input ~ 0
+Signal
+Wire Wire Line
+	5100 2400 5700 2400
+Connection ~ 5700 2400
+Wire Wire Line
+	5700 2400 5900 2400
+Text Notes 2300 2250 0    50   ~ 0
+R1=1k R2=10k\nVmax=4.545\nVmin=2.381
+$EndSCHEMATC
