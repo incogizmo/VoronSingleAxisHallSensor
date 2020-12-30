@@ -202,8 +202,6 @@ $EndComp
 Wire Wire Line
 	3100 2500 3450 2500
 Connection ~ 3100 2500
-Wire Wire Line
-	3100 2200 3100 2150
 $Comp
 L HallEffect:C C1
 U 1 1 5FEB3165
@@ -232,13 +230,6 @@ F 3 "" H 3100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3100 2800
-Wire Wire Line
-	2950 1950 2950 2150
-Wire Wire Line
-	2950 2150 3100 2150
-Connection ~ 3100 2150
-Wire Wire Line
-	3100 2150 3100 2100
 $Comp
 L power:+5V #PWR01
 U 1 1 5FEB4703
@@ -292,4 +283,13 @@ Wire Wire Line
 	5700 2400 5900 2400
 Text Notes 2300 2250 0    50   ~ 0
 R1=1k R2=10k\nVmax=4.545\nVmin=2.381
+Wire Wire Line
+	3100 2100 3100 2150
+Wire Wire Line
+	2950 1950 2950 2150
+Wire Wire Line
+	2950 2150 3100 2150
+Connection ~ 3100 2150
+Wire Wire Line
+	3100 2150 3100 2200
 $EndSCHEMATC
