@@ -38,15 +38,15 @@ $EndComp
 $Comp
 L power:+5V #PWR09
 U 1 1 5FE9D08F
-P 7300 2200
-F 0 "#PWR09" H 7300 2050 50  0001 C CNN
-F 1 "+5V" V 7315 2328 50  0000 L CNN
-F 2 "" H 7300 2200 50  0001 C CNN
-F 3 "" H 7300 2200 50  0001 C CNN
-	1    7300 2200
+P 7300 2400
+F 0 "#PWR09" H 7300 2250 50  0001 C CNN
+F 1 "+5V" V 7315 2528 50  0000 L CNN
+F 2 "" H 7300 2400 50  0001 C CNN
+F 3 "" H 7300 2400 50  0001 C CNN
+	1    7300 2400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7300 2400 0    50   Input ~ 0
+Text GLabel 7300 2200 0    50   Input ~ 0
 Signal
 $Comp
 L HallEffect:TS331ILT U2
@@ -292,4 +292,15 @@ Wire Wire Line
 Connection ~ 3100 2150
 Wire Wire Line
 	3100 2150 3100 2200
+$Comp
+L HallEffect:MountingHole H1
+U 1 1 6008E559
+P 6700 3150
+F 0 "H1" H 6800 3196 50  0000 L CNN
+F 1 "MountingHole" H 6800 3105 50  0000 L CNN
+F 2 "HallEffect:MountingHole_3.2mm_M3" H 6700 3150 50  0001 C CNN
+F 3 "~" H 6700 3150 50  0001 C CNN
+	1    6700 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
