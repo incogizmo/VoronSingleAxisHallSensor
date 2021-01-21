@@ -4,4 +4,5 @@ Designed to be a single axis only and fit within the Y endstop area of V1.8 and 
 
 In this branch the output is Normally Closed. This will provide failsafes if the board / wiring fails, testing needs to be done to ensure accuracy in this configuration.
 
+The comparator in this branch is different to maintain the same PCB layout.
 ![PCB](pcb.jpg)
