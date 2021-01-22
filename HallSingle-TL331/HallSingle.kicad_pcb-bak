@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/incog/Documents/HallIndividual/Gerbers/"))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")
