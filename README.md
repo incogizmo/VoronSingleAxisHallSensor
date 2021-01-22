@@ -5,3 +5,5 @@ Designed to be a single axis only and fit within the Y endstop area of V1.8 and 
 This branch is the Normally Open variant of the board. This does not provide failsafe if the sensor / wiring fail.
 
 ![PCB](pcb.jpg)
+
+This is designed for use with Voron v1.8 printer: https://github.com/VoronDesign/ http://vorondesign.com/
