@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS331ILT
+D TS331ILT
+F https://www.st.com/resource/en/datasheet/ts331.pdf
+$ENDCMP
+# end doc library
