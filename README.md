@@ -6,3 +6,6 @@ In this branch the output is Normally Closed. This will provide failsafes if the
 
 The comparator in this branch is different to maintain the same PCB layout.
 ![PCB](pcb.jpg)
+
+
+This is designed for use with Voron v1.8 printer: https://github.com/VoronDesign/ http://vorondesign.com/
