@@ -7,5 +7,6 @@ In this branch the output is Normally Closed. This will provide failsafes if the
 The comparator in this branch is different to maintain the same PCB layout.
 ![PCB](pcb.jpg)
 
+NOTE: THIS IS UNTESTED AND I SUSPECT THERE IS AN ISSUE WITH THE CURRENT SCHEMATIC (SIGNAL ALWAYS SUNK TO GROUND), USE/ORDER AT YOUR OWN RISK
 
 This is designed for use with Voron v1.8 printer: https://github.com/VoronDesign/ http://vorondesign.com/
